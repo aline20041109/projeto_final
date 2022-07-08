@@ -3,11 +3,11 @@ class Conexao{
 
     static $con = null;
     public static function getConnection(){
-    $ip = "sql111.epizy.com";
+    $ip = "sql301.epizy.com";
     $port = "3306";
-    $user = "epiz_32123967";
-    $pass = "6EkgIVsRkH3Mb";
-    $db = "epiz_32123967_dbcatalogo3e2";
+    $user = "epiz_32127625";
+    $pass = "hdiID2vOzUtGb5";
+    $db = "epiz_32127625_dbcatalogo3e2";
 
     if(!self::$con){
         self::$con = new mysqli($ip, $user, $pass, $db, $port);
